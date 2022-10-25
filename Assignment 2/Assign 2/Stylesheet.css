@@ -1,0 +1,234 @@
+body{
+  background-color: rgb(228,240,0);
+  margin-left: 250px;
+  font-size: 20px;
+  color: purple;
+  font-family: georgia;
+}
+body a{
+  color: blue;
+}
+
+h1{
+  color: purple;
+  font-family: Verdana;
+
+}
+
+.HomePage{
+  background-color: White;
+  color: blue;
+  text-align: justify;
+  font-size: 20px;
+  font-family: gergia;
+  padding: 16px;
+
+  position: fixed;
+  top: 50px;
+  left: 15px;
+
+  border-right: 15px solid Black;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+.Borders {
+
+  position: relative;
+}
+.Borders:after {
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: -17px;
+  right: -16px;
+  bottom: -24px;
+  border: 5px solid white;
+  z-index: -1;
+}
+
+.HomePage a{
+  color: blue;
+  text-decoration: none;
+}
+.HomePage a:hover{
+  color: purple;
+}
+.HomePage:hover, .HomePage:focus {
+  background-color: 00CCCC;
+  border-right: 15px solid Black;
+
+}
+
+.drop {
+  background-color: White;
+  color: blue;
+  text-align: justify;
+  font-size: 20px;
+  font-family: gergia;
+  padding: 16px;
+
+  position: fixed;
+  top: 130px;
+  left: 15px;
+
+  border-right: 15px solid Black;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.drop:hover, .drop:focus {
+  background-color: 00CCCC;
+  border-right: 15px solid Black;
+
+}
+.drop a{
+  text-decoration: none;
+}
+.drop a:hover{
+  color: purple;
+  text-decoration: none;
+}
+
+.dropdown_Menu {
+
+  position: fixed;
+  top: 220px;
+  left: 15px;
+  color: purple;
+  font-family: gergia;
+}
+
+.dropdown-list {
+  margin-left: 25px;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.Google{
+  background-color:  00CCCC;
+  color: purple;
+  text-align: justify;
+  font-size: 20px;
+  font-family: gergia;
+  padding: 16px;
+
+  border-right: 15px solid Black;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+
+  position: fixed;
+  top: 210px;
+  left: 90px;
+
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+.Google:hover, .Google:focus {
+  background-color: 666666;
+
+  border-right: 15px solid Black;
+
+}
+
+.IIT_Mandi{
+  background-color:  00CCCC;
+  color: purple;
+  text-align: justify;
+  font-size: 20px;
+  font-family: gergia;
+  padding: 16px;
+
+  border-right: 15px solid Black;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+
+  position: fixed;
+  top: 290px;
+  left: 90px;
+
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+}
+.IIT_Mandi:hover, .IIT_Mandi:focus {
+  background-color: 666666;
+
+  border-right: 15px solid Black;
+
+}
+
+.dropdown-list a {
+  color: purple;
+  text-decoration: none;
+}
+
+.dropdown-list a:hover {
+
+color: 9900CC;
+}
+
+
+.show {
+display:block;
+}
+
+.Welcome{
+  color: purple;
+}
+
+.Slider_range{
+  position: absolute;
+}
+
+form input[type = "range"]{
+  -webkit-appearance: none;
+  height: 2px;
+  -webkit-box-shadow:2px 2px 2px Black;
+}
+form input[type = "range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  border: 1px Black;
+  height: 20px;
+  width:10px;
+  -webkit-box-shadow:2px 2px 2px Black;
+  background-image: linear-gradient(white,grey);
+  border-bottom-left-radius:45%;
+  border-bottom-right-radius:45%;
+}
+
+table,th,td{
+  border: 2px solid purple;
+  font-size: 20px;
+}
+table{
+  width: 500px;
+}
+hr{
+  border-top:  3px dotted purple;
+  background-color: rgb(228,240,0);
+  border-bottom: rgb(228,240,0);
+  border-left: rgb(228,240,0);
+  border-right: rgb(228,240,0);
+}
+#end{
+  font-size: 20px;
+}
+#end a{
+  color: purple;
+}
