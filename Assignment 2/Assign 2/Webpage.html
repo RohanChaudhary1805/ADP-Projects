@@ -1,0 +1,134 @@
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href="Stylesheet.css"
+<meta name = "G7" content ="Assignment 1">
+</head>
+<title>G7_Assignment-1</title>
+
+<body>
+
+  <h1>Assignment Number 1</h1>
+
+  <button  class="HomePage">
+    <div class="Borders">
+      <b><a href="Webpage.html" >Home Page</a></b>
+    </div>
+  </button>
+
+  <div class="dropdown_Menu">
+
+  <button onclick="ClickFunction()" class="drop">
+    <div class="Borders">
+      <a href="#"><b>Links</b></a>
+    </div>
+  </button>
+
+
+  <div  id="Dropdown" class="dropdown-list">
+
+      <ul type = "circle">
+
+        <li style="margin-bottom:60px">  <button  class="Google"><div class="Borders">
+            <b><a href="https://www.google.com" target="_blank">Google</a></b>
+            </div>
+          </button>
+        </li>
+          <li>
+        <button  class="IIT_Mandi"><div class="Borders"><b><a href="https://www.iitmandi.ac.in" target="_blank">IIT Mandi</a></b>
+        </div></button></li>
+      </ul>
+
+  </div>
+
+</div>
+
+<div class="Welcome">
+    <b>Welcome to CS-207</b><br>
+</div>
+<br>
+
+<div class="Slider_range">
+  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0 <input type="range" id="a" value="50"> 100
+  + <input type="number" id="b" value="50"> = <output name="x" for="a b" ></output>
+  </form>
+</div>
+<br><br><br>
+
+<a href="#end" >Jump Link</a>
+<br><br><br><br><br>
+
+<table>
+  <tr>
+    <th> <b>No.</b> </th>
+    <th><b>Name</b></th>
+    <th><b>Email</b></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Clark kent</td>
+    <td>clarkkent@mail.com</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Peter Parker</td>
+    <td>peterparker@mail.com</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Bruce Wayne</td>
+    <td>brucewayne@mail.com</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Tony Stark</td>
+    <td>tonystark@mail.com</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Bucky Barnes</td>
+    <td>buckybarnest@mail.com</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Reed Richards</td>
+    <td>reedrichards@mail.com</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>J'onn J'onzz</td>
+    <td>jonnjonzz@mail.com</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Sheira Sanders</td>
+    <td>sheirasanders@mail.com</td>
+  </tr>
+
+</table>
+
+<video width="450" height="150" controls>
+  <source src="horse.ogg" type="video/ogg">
+    Your browser Does not support this video format.
+</video><br><br>
+
+<hr><br>
+<i><b>
+Made By G7 <br> for CS-207
+</i></b><br><br><br><br><br><br>
+
+<div id="end">
+  <b>
+  END ( Reference taken from - </b>
+  <a href="https://www.w3schools.com/html/" target="_blank">w3schools.com)</a>
+</div>
+
+
+<script type="text/javascript">
+  function ClickFunction() {
+  document.getElementById("Dropdown").classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>
